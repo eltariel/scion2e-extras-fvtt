@@ -1,0 +1,41 @@
+{   
+  "name": "scion2e-extras",   
+  "title": "Scion 2E extras",   
+  "description": "Little bits and pieces that make life easier in Scion2e Foundry VTT games.",   
+  "version": "This is auto replaced",
+  "library": "false",
+  "manifestPlusVersion": "1.0.0",
+  "minimumCoreVersion": "9",
+  "compatibleCoreVersion": "9",
+  "author": "eltariel",
+  "authors": [
+    {
+      "name": "Eltariel",
+      "email": "fvtt@eltariel.com",
+      "url": "https://eltariel.com",
+      "discord": "eltariel#0540",
+      "twitter": "@_eltariel"
+    }
+  ],
+  "dependencies": [
+    {
+      "name": "storypath-fvtt",
+      "type": "system"
+    }
+  ],
+  "system": ["storypath-fvtt"],
+  "minimumCoreVersion": "9.238",
+  "compatibleCoreVersion": "9.238",
+  "packs": [
+    {
+      "label": "Injury condition templates",
+      "type": "Item",
+      "name": "injury-condition-templates",
+      "path": "packs/injury-condition-templates.db",
+      "entity": "Item"
+    }
+  ],
+  "url": "This is auto replaced",
+  "manifest": "This is auto replaced",
+  "download": "This is auto replaced"
+}
